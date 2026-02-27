@@ -75,6 +75,7 @@ makedepends=(
   'git'
   'ninja'
   'npm'
+  "patch"
   'python-breathe'
   'python-docutils'
   'python-jinja'
