@@ -49,7 +49,7 @@ _majver="11"
 pkgname="${_pkg}${_majver}"
 pkgver="${_majver}.0.2"
 _commit="0c9fce2ffefecfdce794e1859584e25877b7b592"
-pkgrel=1
+pkgrel=2
 pkgdesc='Open-source formatting library for C++'
 arch=(
   'x86_64'
