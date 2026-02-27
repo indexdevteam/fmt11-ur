@@ -49,7 +49,7 @@ _majver="11"
 pkgname="${_pkg}${_majver}"
 pkgver="${_majver}.0.2"
 _commit="0c9fce2ffefecfdce794e1859584e25877b7b592"
-pkgrel=2
+pkgrel=3
 pkgdesc='Open-source formatting library for C++'
 arch=(
   'x86_64'
@@ -110,10 +110,10 @@ prepare() {
     -Np1 \
     -i \
     "../fmt-no-pip-no-virtualenv.patch"
-  patch \
-    -Np1 \
-    -i \
-    "../fmt-${_majver}.0.0-sphinx.patch"
+  # patch \
+  #   -Np1 \
+  #   -i \
+  #   "../fmt-${_majver}.0.0-sphinx.patch"
 }
 
 pkgver() {
